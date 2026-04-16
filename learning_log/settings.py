@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-l6ez_8$xxw8tu%dpcldiv7ojdrxpew4$g55@j4p=t7u#j3(xj%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://learninglogproject-anrw.onrender.com"]
 
 # Application definition
 INSTALLED_APPS = [
