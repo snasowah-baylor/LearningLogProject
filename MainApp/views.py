@@ -11,6 +11,7 @@ def index(request):
     return render(request, "mainapp/index.html")
 
 
+@login_required
 def topics(request):
     # This view displays the topics for the Learning Log.
     topics = Topic.objects.filter(owner=request.user).order_by("date_added")
